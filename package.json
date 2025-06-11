@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build || true ",
+    "build": "node public/scripts/safe-build.js",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
